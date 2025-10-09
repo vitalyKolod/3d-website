@@ -1,267 +1,268 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: 'Работы',
+    link: '#work',
   },
   {
-    name: "Experience",
-    link: "#experience",
+    name: 'Опыт',
+    link: '#experience',
   },
+  // {
+  //   name: 'Skills',
+  //   link: '#skills',
+  // },
   {
-    name: "Skills",
-    link: "#skills",
+    name: 'Отзывы',
+    link: '#testimonials',
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
-];
+]
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-];
+  { text: 'Идеи', imgPath: '/images/ideas.svg' },
+  { text: 'Объятия', imgPath: '/images/embrace.svg' },
+  { text: 'Поцелуи', imgPath: '/images/kiss.svg' },
+  { text: 'Взгляды', imgPath: '/images/eyes.svg' },
+  { text: 'Мечты', imgPath: '/images/dream.svg' },
+  { text: 'Моменты', imgPath: '/images/moments.svg' },
+  { text: 'Эмоции', imgPath: '/images/emotions.svg' },
+  { text: 'Образы', imgPath: '/images/image.svg' },
+]
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
+  { value: 3, suffix: '+', label: 'Года опыта' },
+  { value: 200, suffix: '+', label: 'Выполненных работ' },
+  { value: 100, suffix: '%', label: 'Довольных клиентов' },
+]
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: '/images/logos/company-logo-1.png',
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: '/images/logos/company-logo-2.png',
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: '/images/logos/company-logo-3.png',
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: '/images/logos/company-logo-4.png',
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: '/images/logos/company-logo-5.png',
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: '/images/logos/company-logo-6.png',
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: '/images/logos/company-logo-7.png',
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: '/images/logos/company-logo-8.png',
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: '/images/logos/company-logo-9.png',
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: '/images/logos/company-logo-10.png',
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: '/images/logos/company-logo-11.png',
   },
-];
-
+]
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: '/images/seo.png',
+    title: 'Качество Превыше Всего',
+    desc: 'Создаю фотографии высочайшего уровня с вниманием к каждой детали и настроению.',
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: '/images/chat.png',
+    title: 'Открытое Общение',
+    desc: 'Всегда на связи, чтобы услышать ваши идеи и воплотить их в жизнь.',
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: '/images/time.png',
+    title: 'Пунктуальность',
+    desc: 'Ценю ваше время - снимки готовы точно в оговоренные сроки без компромиссов в качестве.',
   },
-];
+]
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: 'React Developer',
+    imgPath: '/images/logos/react.png',
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: 'Python Developer',
+    imgPath: '/images/logos/python.svg',
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: 'Backend Developer',
+    imgPath: '/images/logos/node.png',
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: 'Interactive Developer',
+    imgPath: '/images/logos/three.png',
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    name: 'Project Manager',
+    imgPath: '/images/logos/git.svg',
   },
-];
+]
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    name: 'React Developer',
+    modelPath: '/models/react_logo-transformed.glb',
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
+    name: 'Python Developer',
+    modelPath: '/models/python-transformed.glb',
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    name: 'Backend Developer',
+    modelPath: '/models/node-transformed.glb',
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    name: 'Interactive Developer',
+    modelPath: '/models/three.js-transformed.glb',
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
+    name: 'Project Manager',
+    modelPath: '/models/git-svg-transformed.glb',
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
-];
+]
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review:
+      'Рита привнесла в нашу студию не только техническое мастерство, но и творческий взгляд. Ее работы значительно повысили качество наших фотосессий и удовлетворенность клиентов. Ее подход к созданию кадров бесценен для создания незабываемых впечатлений.',
+    imgPath: '/images/exp1.png',
+    logoPath: '/images/camera.png',
+    title: 'Профессиональный фотограф',
+    // date: 'Январь 2023 - Настоящее время',
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      'Проведение индивидуальных и групповых фотосессий в студии и на выезде',
+      'Сотрудничество со стилистами и визажистами для создания гармоничных образов',
+      'Обработка фотографий с сохранением естественности и вниманием к деталям',
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review:
+      'Вклад Риты в развитие нашего свадебного агентства был исключительным. Она подходит к каждой съемке с творческим мышлением и умением находить beauty в каждом моменте.',
+    imgPath: '/images/exp2.png',
+    logoPath: '/images/wedding.png',
+    title: 'Свадебный фотограф',
+    // date: 'Июнь 2020 - Декабрь 2023',
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      'Организация и проведение свадебных фотосессий "под ключ"',
+      'Работа с парами для создания комфортной атмосферы и искренних эмоций',
+      'Создание фотоисторий, которые точно передают emotions и уникальность каждого торжества',
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review:
+      'Работа Риты над коммерческими проектами принесла высокий уровень качества и эффективности. Она создала решения, которые усилили визуальное восприятие брендов и соответствовали бизнес-целям компаний.',
+    imgPath: '/images/exp3.png',
+    logoPath: '/images/job.png',
+    title: 'Коммерческий фотограф',
+    // date: 'Март 2019 - Май 2020',
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      'Создание контента для брендов, включая предметную и портретную съемку',
+      'Разработка визуальных концепций в соответствии с айдентикой компаний',
+      'Взаимодействие с маркетинговыми командами для реализации проектов на основе целевой аудитории',
     ],
   },
-];
+]
 
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: 'logo1',
+    imgPath: '/images/logo1.png',
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
+    name: 'logo2',
+    imgPath: '/images/logo2.png',
   },
   {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    name: 'logo3',
+    imgPath: '/images/logo3.png',
   },
-];
+]
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: 'Алексей Иванов',
+    mentions: '@alex_photo_love',
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      'Рита - настоящий волшебник! Она смогла поймать самые искренние эмоции нашей семьи. Каждый кадр - это отдельная история, которая будет согревать нас долгие годы. Спасибо за такие живые и душевные фото!',
+    imgPath: '/images/client1.png',
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: 'Дмитрий Петров',
+    mentions: '@dima_wedding',
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      'Работать с Ритой было невероятно комфортно! Она превратила нашу свадебную фотосессию в настоящую сказку. Внимание к деталям и умение создать расслабленную атмосферу - это то, что отличает профессионала. Все гости в восторге от снимков!',
+    imgPath: '/images/client3.png',
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: 'Артем Козлов',
+    mentions: '@artem_style',
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      'Сотрудничество с Ритой - это абсолютное удовольствие! Ее профессионализм, чуткость и dedication к созданию исключительных результатов были заметны на каждом этапе. Энтузиазм Риты к каждой детали съемки действительно впечатляет. Если вы хотите не просто фотографии, а настоящие произведения искусства, которые подчеркнут вашу индивидуальность - Рита ваш идеальный фотограф.',
+    imgPath: '/images/client2.png',
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: 'Максим Смирнов',
+    mentions: '@max_travel',
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      'Рита - настоящий профессионал! Она превратила нашу обычную прогулку в удивительную фотосессию. Получились свежие, современные снимки, которые идеально передают настроение и легко смотрятся. Восхитительная работа!',
+    imgPath: '/images/client5.png',
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: 'Сергей Волков',
+    mentions: '@serg_business',
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      'Профессионализм Риты в создании портретов действительно впечатляет! Она сделала серию снимков для моего бренда, и с их запуском узнаваемость компании значительно выросла. Каждый кадр точно передает философию бренда. Настоящий мастер своего дела!',
+    imgPath: '/images/client4.png',
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: 'Иван Новиков',
+    mentions: '@ivan_dad',
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      'Работать с Ритой было сплошным удовольствием! Она прекрасно поняла наши пожелания и создала фото, которые превзошли все ожидания. Ее умение находить beauty в обычных моментах и работать с естественным светом - выше всяких похвал. Настоятельно рекомендую!',
+    imgPath: '/images/client6.png',
   },
-];
+]
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: 'insta',
+    imgPath: '/images/insta.png',
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: 'fb',
+    imgPath: '/images/fb.png',
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: 'x',
+    imgPath: '/images/x.png',
   },
   {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    name: 'linkedin',
+    imgPath: '/images/linkedin.png',
   },
-];
+]
 
 export {
   words,
@@ -275,4 +276,4 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
-};
+}

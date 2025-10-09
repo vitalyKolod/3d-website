@@ -1,19 +1,19 @@
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
-import AnimatedCounter from "../components/AnimatedCounter";
-import Button from "../components/Button";
-import { words } from "../constants";
-import HeroExperience from "../components/models/hero_models/HeroExperience";
+import AnimatedCounter from '../components/AnimatedCounter'
+import Button from '../components/Button'
+import { words } from '../constants'
+import HeroExperience from '../components/models/hero_models/HeroExperience'
 
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
-      ".hero-text h1",
+      '.hero-text h1',
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
-    );
-  });
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: 'power2.inOut' }
+    )
+  })
 
   return (
     <section id="hero" className="relative overflow-hidden">
@@ -27,14 +27,11 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Превращаю
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
-                      <span
-                        key={index}
-                        className="flex items-center md:gap-3 gap-1 pb-2"
-                      >
+                      <span key={index} className="flex items-center md:gap-3 gap-1 pb-2">
                         <img
                           src={word.imgPath}
                           alt="person"
@@ -46,20 +43,16 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>в историю,</h1>
+              <h1>которая останется навсегда</h1>
             </div>
 
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none break-words whitespace-normal leading-relaxed max-w-[500px]">
+              Привет! меня зовут Рита, я профeссиональный фотограф, который любит свое дело и
+              поможет сделать тебе фотосессию мечты
             </p>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
+            <Button text="See My Work" className="md:w-80 md:h-16 w-60 h-12" id="counter" />
           </div>
         </header>
 
@@ -73,7 +66,7 @@ const Hero = () => {
 
       <AnimatedCounter />
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

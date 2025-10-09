@@ -1,15 +1,12 @@
-import { testimonials } from "../constants";
-import TitleHeader from "../components/TitleHeader";
-import GlowCard from "../components/GlowCard";
+import { testimonials } from '../constants'
+import TitleHeader from '../components/TitleHeader'
+import GlowCard from '../components/GlowCard'
 
 const Testimonials = () => {
   return (
     <section id="testimonials" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader
-          title="What People Say About Me?"
-          sub="⭐️ Customer feedback highlights"
-        />
+        <TitleHeader title="Что клиенты говорят о мне?" sub="⭐️ Основные отзывы клиентов" />
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
           {testimonials.map((testimonial, index) => (
@@ -28,7 +25,7 @@ const Testimonials = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Testimonials;
+export default Testimonials
