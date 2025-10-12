@@ -249,10 +249,12 @@ const socialImgs = [
   {
     name: 'insta',
     imgPath: '/images/insta.png',
+    link: 'https://www.instagram.com/rita.holodenko?utm_source=ig_web_button_share_sheet&igsh=MnFuYXZkZnU5dTZ4',
   },
   {
-    name: 'fb',
-    imgPath: '/images/fb.png',
+    name: 'wh',
+    imgPath: '/images/whatsapp.png',
+    link: 'https://wa.me/79282111082',
   },
   {
     name: 'x',

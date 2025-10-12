@@ -61,7 +61,16 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img src="/images/rita-inst.jpg" alt="Library Management Platform" />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>
+                Рассказываю о женственности в моем{' '}
+                <a
+                  className="text-blue-600"
+                  href="https://www.instagram.com/rita.holodenko?utm_source=ig_web_button_share_sheet&igsh=MnFuYXZkZnU5dTZ4"
+                  target="_blank"
+                >
+                  Instagram
+                </a>
+              </h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
