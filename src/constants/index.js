@@ -259,8 +259,9 @@ const socialImgs = [
     imgPath: '/images/x.png',
   },
   {
-    name: 'linkedin',
-    imgPath: '/images/linkedin.png',
+    name: 'telegram',
+    imgPath: '/images/telegram.png',
+    link: 'https://t.me/rita_dyachuk',
   },
 ]
 
