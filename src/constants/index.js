@@ -256,10 +256,7 @@ const socialImgs = [
     imgPath: '/images/whatsapp.png',
     link: 'https://wa.me/79282111082',
   },
-  {
-    name: 'x',
-    imgPath: '/images/x.png',
-  },
+
   {
     name: 'telegram',
     imgPath: '/images/telegram.png',

@@ -46,8 +46,8 @@ const Contact = () => {
           title="Напишите мне, давай знакомиться"
           sub="💬 Есть идеи или предложения? Напиши! 🚀"
         />
-        <div className="grid-12-cols mt-16">
-          <div className="xl:col-span-5">
+        <div className="mt-16 flex justify-center">
+          <div className="w-full max-w-xl">
             <div className="flex-center card-border rounded-xl p-10">
               <form ref={formRef} onSubmit={handleSubmit} className="w-full flex flex-col gap-7">
                 <div>
@@ -101,11 +101,11 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="xl:col-span-7 min-h-96">
+          {/* <div className="xl:col-span-7 min-h-96">
             <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
               <ContactExperience />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

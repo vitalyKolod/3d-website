@@ -45,13 +45,12 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/family-photo.jpg" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
-              <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+              <h2>Семейные истории в красивых и трогательных кадрах</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly
-                experience.
+                Помогаю сохранить ваши эмоции, объятия и тепло — такими, какими они есть сейчас.
               </p>
             </div>
           </div>
@@ -75,9 +74,9 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/hands.jpg" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>История вашей любви в искренних и тёплых кадрах</h2>
             </div>
           </div>
         </div>
